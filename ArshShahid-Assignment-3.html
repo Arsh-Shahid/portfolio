@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        #header {
+          background-color: rgb(120, 163, 178);
+        }
+  
+        .light-line {
+          width: 80px;
+          border: 2px solid #ffffff;
+          margin: auto;
+          opacity: 1;
+        }
+        .dark-line {
+          width: 80px;
+          border: 2px solid #000000;
+          margin: auto;
+          opacity: 1;
+        }
+.row img{
+border-radius: 5px;
+
+}
+
+#about a{
+    border: 1px solid white;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 8px 12px;
+    text-decoration: none;
+ 
+
+}
+#about{
+background-color:rgb(120, 163, 178) ;
+
+}
+#footer{
+  background-color: #2f3b3f;
+}
+
+#footer i{
+  font-size: 15px;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 3px;
+}
+
+#ending{
+  font-size: 13px;
+}
+
+      </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Arsh Shahid</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#Portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="header">
+        <div class="container text-center pt-5 pb-5 text-white">
+          <img src="https://cdn-icons-png.flaticon.com/512/219/219969.png" width="150px">
+          <h3>Arsh Shahid</h3>
+          <hr class="light-line">
+          <p class="p-3">Graphic Artist-Web Designer-lllustrator</p>
+        </div>
+      </div>
+      <div id="portfolio">
+        <div class="container text-center pt-3 pb-3 ">
+          <h1>PORTFOLIO</h1>
+          <hr class="dark-line">
+          <div class="row p-4">
+        <div class="col-sm-4 p-2" style="background-color:lavenderblush;"><img src="img/portfolio/cabin.png" alt="" width="400px"> </div>
+        <div class="col-sm-4 p-2" style="background-color:lavenderblush;"><img src="img/portfolio/cake.png" alt="" width="400px"></div>
+        <div class="col-sm-4 p-2" style="background-color:lavenderblush;"><img src="img/portfolio/circus.png" alt="" width="400px"></div>
+          </div>
+
+          <div class="row p-4">
+        <div class="col-sm-4 p-2" style="background-color:lavenderblush;"><img src="img/portfolio/game.png" alt="" width="400px"> </div>
+        <div class="col-sm-4 p-2" style="background-color:lavenderblush;"><img src="img/portfolio/safe.png" alt="" width="400px"></div>
+        <div class="col-sm-4 p-2" style="background-color:lavenderblush;"><img src="img/portfolio/submarine.png" alt="" width="400px"></div>
+          </div>
+
+          </div>
+        </div>
+      
+  
+      <div id="about">
+    
+
+    <div class="container text-center p-5 text-white">
+      <h1>ABOUT</h1>
+      <hr class="light-line">
+      <div class="row d-flex justify-content-center">
+        
+        <div class="col-sm-4 p-3">As a versatile freelance Graphic Artist, Web Designer, and Illustrator, I bring creativity to life through visually captivating designs. With a keen eye for detail, I specialize in crafting engaging graphics, designing user-friendly websites,</div>
+        <div class="col-sm-4 p-3">and illustrating concepts that resonate. My commitment to delivering unique and impactful visual solutions ensures clients stand out in the digital landscape. Let's bring your ideas to fruition with a touch of artistic flair</div>
+      
+    </div>
+      <a href=""><i class="fa fa-download" aria-hidden="true"></i>  Free download</a> 
+    </div>
+</div>
+
+    <div id="contact">
+      
+<div class="container p-5">
+  <h2 class="text-center">CONTACT ME</h2>
+  <hr class="dark-line">
+  <form>
+   <div class="mb-3 mt-3">
+              
+  <input type="name" class="form-control" id="name" placeholder="Full name" name="name">
+  </div>
+ <div class="mb-3">
+              
+  <input type="email" class="form-control" id="email" placeholder="Email address" name="email">
+ </div>
+  <div class="mb-3">
+              
+  <input type="number" class="form-control" id="number" placeholder="Phone number" name="number">
+  </div>
+
+   <div class="mb-3" >
+  <label for="Message">Message:</label>
+  <textarea class="form-control" rows="2" id="Message" name="text"></textarea>
+    </div class="mb-3">
+
+    <button type="submit" class="btn btn-primary">Sent</button>
+
+  </div>
+
+
+        </form>
+      </div>
+     
+   
+    <div id="footer">
+<div class="container text-center text-white">
+      <div class="row">
+        <div class="col-sm-4 p-2"><h3>LOCATION</h3><p>2215 John Daniel Drive <br> Clark,MO65243</p>  </div>
+        <div class="col-sm-4 p-2"><h3>AROUND THE WEB</h3><i class="fa fa-facebook" aria-hidden="true"></i> <i class="fa fa-twitter" aria-hidden="true"></i> <i class="fa fa-linkedin" aria-hidden="true"></i> <i class="fa fa-globe" aria-hidden="true"></i>  </div>
+        <div class="col-sm-4 p-2"><h3>ABOUT FREELANCER</h3><p>Freelance Graphic Artist and Web Designer weaving creativity into visual excellence</p></div>
+    	
+    </div>
+    </div>
+  </div>
+
+<div id="ending" class="bg-dark">
+<div class="container text-center text-white">
+  <div class="p-2">
+    <span>Copyright</span><i class="fa fa-globe" aria-hidden="true"></i><span>ArshShahid2025</span>
+  </div>
+
+
+</div>
+
+</div>
+
+</body>
+</html>
